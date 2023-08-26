@@ -1,0 +1,29 @@
+/* darle formato al component header */
+
+.header{
+     width: 100%; /*todo lo que esta dentro del div */
+     background-color: rgb(229, 229, 185);
+     border-bottom: solid 1px #000000;/*genera una linea sobre el margen inferior del div */
+}
+
+.menu{
+    margin:0;
+    padding: 0;
+    display: flex;/*acomoda la lista*/
+    list-style: none;/*para que no tenga estilo de lista. desaparece el punto*/
+    /*centrar el contenido y los items */
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;/*genera espacio entre los items repartido*/
+}
+
+.logoYoutube{
+    height: 2rem;/*rem es una unidad de medida que se apoya en el tamaño de la fuente de la lista 2 rem es el doble del tamaño de la fuente*/
+
+}
+
+.menu li{/*configura los items dentro de la clase menu es un tag dentro de la clase*/
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}
