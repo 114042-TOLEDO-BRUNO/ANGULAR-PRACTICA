@@ -2,7 +2,7 @@
    display: grid;
    grid-template-columns: repeat(5, 1fr); /* Crea 3 columnas de igual ancho */
    gap: 1rem; /* Espacio entre las celdas */
-   padding-left: 0rem;
+   padding-left: 1rem;
    padding-bottom: 100rem;
    
  }

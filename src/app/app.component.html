@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="grid">
- <app-card *ngFor="let card of ArregloTarjetas"></app-card>  <!-- directiva para recorrer el arreglo -->
+ <app-card [dataEntrante]="card" *ngFor="let card of ArregloTarjetas"></app-card>  <!-- directiva para recorrer el arreglo -->
 </div>
 
 
